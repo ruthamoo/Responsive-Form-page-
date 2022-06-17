@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("favicon-32x32.png");
+  background-color: white;
+  
+}
+@media screen and (max-width: 375px).column{
+  width: 50%
+}
+.content{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%) ;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.writing{
+  padding: 6em;
+  background-color: transparent;
+  flex: 50%;
+  color: white;
+  box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.next{
+  flex: 50%;
+  display: grid;
+  float: left;
+  gap: 20px;
+  
+  
+}
+.heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight:700;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  box-shadow: 0 2 6px 0 rgba(0, 0, 0, 0.08), 0 2px rgba(0, 0, 0, 0.12);
+}
+.heading small{
+  color: white;
+}
+.form{
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form fname{
+  color: black;
+}
+input[type=text] {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
+button {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width: 100%;
+  border: hsl(154, 59%, 51%); 
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  background-color: hsl(160, 66%, 60%);
+  color: white;
+  cursor: pointer;
+}
+small bold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 100%, 74%)
+}
+big {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.form small{
+  color: hsl(246, 25%, 77%);
+  font-family: 'Poppins', sans-serif;
+  style:bold;
+}
+::placeholder {
+  color: hsl(249, 10%, 26%) ;
+  opacity: 1; /* Firefox */
+}
+
+border: 2px solid #ff7978;
